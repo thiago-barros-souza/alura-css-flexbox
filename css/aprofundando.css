@@ -1,0 +1,28 @@
+.primeiraRow {
+    height: 40px;
+    width: 200px;
+}
+
+.primeiraRow:nth-child(1) {
+    height: 60px;
+    background-color: red;
+}
+
+.primeiraRow:nth-child(2) {
+    background-color: blue;
+}
+
+.primeiraRow:nth-child(3) {
+    background-color: green;
+}
+
+.primeiraRow:nth-child(4) {
+    background-color: yellow;
+    flex-shrink: 52;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
